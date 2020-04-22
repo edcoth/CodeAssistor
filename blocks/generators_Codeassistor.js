@@ -1,4 +1,4 @@
-Blockly.JavaScript['Aray'] = function (block) {
+Blockly.JavaScript['CodeAssistor_Aray'] = function (block) {
   var Type = block.getFieldValue('Type');
   var name = block.getFieldValue('Arayname');
   var value_CODE = block.getFieldValue('value_CODE');
@@ -14,7 +14,7 @@ Blockly.JavaScript['Aray'] = function (block) {
 
 
 
-Blockly.JavaScript['value_of'] = function (block) {
+Blockly.JavaScript['CodeAssistor_value_of'] = function (block) {
   let code = '';
   var arr1 = block.getFieldValue('arr1');
   var index2 = Blockly.JavaScript.valueToCode(block, 'at', Blockly.JavaScript.ORDER_ATOMIC)
@@ -23,7 +23,7 @@ Blockly.JavaScript['value_of'] = function (block) {
 };
 
 
-Blockly.JavaScript['map'] = function (block) {
+Blockly.JavaScript['CodeAssistor_map'] = function (block) {
   var map_value = Blockly.JavaScript.valueToCode(block, 'variable', Blockly.JavaScript.ORDER_ATOMIC);
   var fromLow = Blockly.JavaScript.valueToCode(block, 'fromLow', Blockly.JavaScript.ORDER_ATOMIC);
   var fromHigh = Blockly.JavaScript.valueToCode(block, 'fromHigh', Blockly.JavaScript.ORDER_ATOMIC);

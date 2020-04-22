@@ -1,6 +1,6 @@
 {
-  "name" : "kbide-plugin-template",
-  "title": "Code assistor",
+  "name" : "CodeAssistor",
+  "title": "CodeAssistor",
   "keywords": "ide, esp32",
   "category":"",
   "description": "Plugin Code assistor for KB-IDE",

@@ -1,4 +1,4 @@
-Blockly.Blocks['Aray'] = {
+Blockly.Blocks['CodeAssistor_Aray'] = {
   init: function () {
     this.appendDummyInput()
       .appendField("Array :")
@@ -22,7 +22,7 @@ Blockly.Blocks['Aray'] = {
 
 
 
-Blockly.Blocks['value_of'] = {
+Blockly.Blocks['CodeAssistor_value_of'] = {
   init: function () {
     this.appendDummyInput()
       .appendField("Value of")
@@ -40,7 +40,7 @@ Blockly.Blocks['value_of'] = {
   }
 };
 
-Blockly.Blocks['map'] = {
+Blockly.Blocks['CodeAssistor_map'] = {
   init: function () {
     this.appendValueInput("variable")
       .setCheck("Number")
