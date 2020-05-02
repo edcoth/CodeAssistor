@@ -8,10 +8,11 @@ Blockly.JavaScript['CodeAssistor_Aray'] = function (block) {
       String: x=> `"${x}"`,
       float:x=>parseFloat(x)
   }
-  let code = Type + " " + name + "["+value_CODE_Split.length+"] = {" + value_CODE_Split.map(x=>filter[Type](x)).join(',') + "};";
+  let code_aray = Type + " " + name + "["+value_CODE_Split.length+"] = {" + value_CODE_Split.map(x=>filter[Type](x)).join(',') + "};";
+  let code = `#VARIABLE ${code_aray}#END`;
+  
   return code;
 };
-
 
 
 Blockly.JavaScript['CodeAssistor_value_of'] = function (block) {
