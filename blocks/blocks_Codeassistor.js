@@ -44,7 +44,7 @@ Blockly.Blocks['CodeAssistor_map'] = {
   init: function () {
     this.appendValueInput("variable")
       .setCheck("Number")
-      .appendField("map(variable :");
+      .appendField("map variable :");
     this.appendValueInput("fromLow")
       .setCheck("Number")
       .appendField(", fromLow :");
